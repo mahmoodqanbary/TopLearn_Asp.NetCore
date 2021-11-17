@@ -99,6 +99,56 @@ namespace TopLearn.DataLayer.Migrations
                     b.ToTable("UserRoles");
                 });
 
+            modelBuilder.Entity("TopLearn.DataLayer.Entities.Wallet.Wallet", b =>
+                {
+                    b.Property<int>("WalletId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<bool>("IsPay")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("TypeId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("WalletId");
+
+                    b.HasIndex("TypeId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Wallets");
+                });
+
+            modelBuilder.Entity("TopLearn.DataLayer.Entities.Wallet.WalletType", b =>
+                {
+                    b.Property<int>("TypeId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TypeTitle")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.HasKey("TypeId");
+
+                    b.ToTable("WalletTypes");
+                });
+
             modelBuilder.Entity("TopLearn.DataLayer.Entities.User.UserRole", b =>
                 {
                     b.HasOne("TopLearn.DataLayer.Entities.User.Role", "Role")
@@ -118,6 +168,25 @@ namespace TopLearn.DataLayer.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("TopLearn.DataLayer.Entities.Wallet.Wallet", b =>
+                {
+                    b.HasOne("TopLearn.DataLayer.Entities.Wallet.WalletType", "WalletType")
+                        .WithMany("Wallets")
+                        .HasForeignKey("TypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TopLearn.DataLayer.Entities.User.User", "User")
+                        .WithMany("Wallets")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+
+                    b.Navigation("WalletType");
+                });
+
             modelBuilder.Entity("TopLearn.DataLayer.Entities.User.Role", b =>
                 {
                     b.Navigation("UserRoles");
@@ -126,6 +195,13 @@ namespace TopLearn.DataLayer.Migrations
             modelBuilder.Entity("TopLearn.DataLayer.Entities.User.User", b =>
                 {
                     b.Navigation("UserRoles");
+
+                    b.Navigation("Wallets");
+                });
+
+            modelBuilder.Entity("TopLearn.DataLayer.Entities.Wallet.WalletType", b =>
+                {
+                    b.Navigation("Wallets");
                 });
 #pragma warning restore 612, 618
         }

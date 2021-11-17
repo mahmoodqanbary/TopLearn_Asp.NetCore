@@ -2,7 +2,7 @@
 <html class="no-js" dir="rtl" lang="fa-IR">
 <head>
     <meta charset="UTF-8">
-    <title> تاپ لرن </title>
+    <title> @ViewData["Title"] </title>
     <partial name="_MetaTags" />
     <partial name="_Styles" />
     <script src="/js/jquery.min.js"></script>
@@ -27,11 +27,12 @@
                         <div class="clientarea">
                             @if (User.Identity.IsAuthenticated)
                             {
-                                <div class="loggein">
-                                    <i class="zmdi zmdi-account"></i><a href=""> @User.Identity.Name ، خوش آمدی </a>
-                                    /
-                                    <a href="/Logout"> خروج </a>
-                                </div>
+                            <div class="loggein">
+                                <i class="zmdi zmdi-account"></i><a href="/userpanel"> @User.Identity.Name ، خوش آمدید </a>
+                                /
+                                <a href="/Logout"> خروج </a>
+                                
+                            </div>
                             }
                             else
                             {

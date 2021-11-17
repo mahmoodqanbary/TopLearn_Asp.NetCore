@@ -39,6 +39,9 @@ namespace TopLearn.Web
             #region IoC
             services.AddTransient<IUserServices, UserServices>();
             services.AddTransient<IViewRenderService, RenderViewToString>();
+            services.AddTransient<IUserPanelServices, UserPanelServices>();
+            services.AddTransient<IUserAdminServies, UserAdminServiecs>();
+            
             #endregion
             #region Authentication
             services.AddAuthentication(options =>
@@ -70,7 +73,15 @@ namespace TopLearn.Web
             app.UseAuthentication();
             app.UseMvcWithDefaultRoute();
             app.UseRouting();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "areas",
+                    template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
 
+                );
+                routes.MapRoute("Default", "{controller=Home}/{action=Index}/{id?}");
+            });
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>

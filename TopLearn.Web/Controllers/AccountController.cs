@@ -78,8 +78,9 @@ namespace TopLearn.Web.Controllers
         #endregion
         #region Login
         [Route("Login")]
-        public IActionResult Login()
+        public IActionResult Login(bool EditProfile=false)
         {
+            ViewBag.EditProfile = EditProfile;
             return View();
         }
         [Route("Login")]
