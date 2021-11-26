@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using TopLearn.Core.Convertors;
@@ -80,6 +81,35 @@ namespace TopLearn.Core.Services
         {
             _context.Update(user);
             _context.SaveChanges();
+        }
+
+        public int AddUserFromAdmin(CreateUserViewModel user)
+        {
+            User addUser = new User();
+            addUser.Password = PasswordHelper.EncodePasswordMd5(user.Password);
+            addUser.ActiveCode = NameGenerator.GeneratUniqCode();
+            addUser.Email = user.Email;
+            addUser.IsActive = true;
+            addUser.RegisterDate = DateTime.Now;
+            addUser.UserName = user.UserName;
+
+            #region Save Avatar
+
+            if (user.UserAvatar != null)
+            {
+                string imagePath = "";
+                addUser.Avatar = NameGenerator.GeneratUniqCode() + Path.GetExtension(user.UserAvatar.FileName);
+                imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/UserAvatar", addUser.Avatar);
+                using (var stream = new FileStream(imagePath, FileMode.Create))
+                {
+                    user.UserAvatar.CopyTo(stream);
+                }
+            }
+
+            #endregion
+
+            return AddUser(addUser);
+
         }
         #endregion
 

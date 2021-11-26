@@ -11584,11 +11584,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn\\TopLearn.Web\\TopLearn.Web.csproj",
+      "projectUniqueName": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn_Asp.NetCore\\TopLearn.Web\\TopLearn.Web.csproj",
       "projectName": "TopLearn.Web",
-      "projectPath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn\\TopLearn.Web\\TopLearn.Web.csproj",
+      "projectPath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn_Asp.NetCore\\TopLearn.Web\\TopLearn.Web.csproj",
       "packagesPath": "C:\\Users\\sepehr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn\\TopLearn.Web\\obj\\",
+      "outputPath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn_Asp.NetCore\\TopLearn.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sepehr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11605,11 +11605,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn\\TopLearn.Core\\TopLearn.Core.csproj": {
-              "projectPath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn\\TopLearn.Core\\TopLearn.Core.csproj"
+            "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn_Asp.NetCore\\TopLearn.Core\\TopLearn.Core.csproj": {
+              "projectPath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn_Asp.NetCore\\TopLearn.Core\\TopLearn.Core.csproj"
             },
-            "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn\\TopLearn.DataLayer\\TopLearn.DataLayer.csproj": {
-              "projectPath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn\\TopLearn.DataLayer\\TopLearn.DataLayer.csproj"
+            "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn_Asp.NetCore\\TopLearn.DataLayer\\TopLearn.DataLayer.csproj": {
+              "projectPath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn_Asp.NetCore\\TopLearn.DataLayer\\TopLearn.DataLayer.csproj"
             }
           }
         }

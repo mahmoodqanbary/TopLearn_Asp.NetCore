@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IZzMtGOSaH8L2QwYbe5P3PE1D873CGhPSlzdicBYT4RHXCRto4+bVtqz/nGEfwpgt3E8oT/XkzBRU0cxhbk9fQ==",
+  "dgSpecHash": "E3R4nztw0vNc/I54efaTzJTe+wjJu+87Lw45ppMcl8nvqbM/GyexDC3FzR49m/fiGQnXWv3CF4sjyZjfkE8DjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn\\TopLearn.Web\\TopLearn.Web.csproj",
+  "projectFilePath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn_Asp.NetCore\\TopLearn.Web\\TopLearn.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sepehr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sepehr\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",

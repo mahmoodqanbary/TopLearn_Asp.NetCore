@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lCEsufUNrKYczwe+lvJ6CtPJZsBeR/APj661sXeBBrSvpxjuW47L8yDAPsuctX0hl103pdHcgvMcvuPdfH3+Cg==",
+  "dgSpecHash": "MpBFvDqCg3xcYtvJXs6TTAkHdW6d56z359J0Nt8mtJom1h75768TRDjOfy2/WadMW4v42I+2k4WUmRJ9mzfPOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn\\TopLearn.Core\\TopLearn.Core.csproj",
+  "projectFilePath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn_Asp.NetCore\\TopLearn.Core\\TopLearn.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sepehr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sepehr\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

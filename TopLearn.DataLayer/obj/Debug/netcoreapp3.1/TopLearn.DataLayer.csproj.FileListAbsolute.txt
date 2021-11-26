@@ -10,3 +10,15 @@ C:\Users\sepehr\Desktop\TopLearn\TopLearn\TopLearn.DataLayer\obj\Debug\netcoreap
 C:\Users\sepehr\Desktop\TopLearn\TopLearn\TopLearn.DataLayer\obj\Debug\netcoreapp3.1\TopLearn.DataLayer.pdb
 C:\Users\sepehr\Desktop\TopLearn\TopLearn\TopLearn.DataLayer\obj\Debug\netcoreapp3.1\TopLearn.DataLayer.genruntimeconfig.cache
 C:\Users\sepehr\Desktop\TopLearn\TopLearn\TopLearn.DataLayer\obj\Debug\netcoreapp3.1\TopLearn.DataLayer.csprojAssemblyReference.cache
+C:\Users\sepehr\Desktop\TopLearn\TopLearn_Asp.NetCore\TopLearn.DataLayer\bin\Debug\netcoreapp3.1\TopLearn.DataLayer.deps.json
+C:\Users\sepehr\Desktop\TopLearn\TopLearn_Asp.NetCore\TopLearn.DataLayer\bin\Debug\netcoreapp3.1\TopLearn.DataLayer.runtimeconfig.json
+C:\Users\sepehr\Desktop\TopLearn\TopLearn_Asp.NetCore\TopLearn.DataLayer\bin\Debug\netcoreapp3.1\TopLearn.DataLayer.runtimeconfig.dev.json
+C:\Users\sepehr\Desktop\TopLearn\TopLearn_Asp.NetCore\TopLearn.DataLayer\bin\Debug\netcoreapp3.1\TopLearn.DataLayer.dll
+C:\Users\sepehr\Desktop\TopLearn\TopLearn_Asp.NetCore\TopLearn.DataLayer\bin\Debug\netcoreapp3.1\TopLearn.DataLayer.pdb
+C:\Users\sepehr\Desktop\TopLearn\TopLearn_Asp.NetCore\TopLearn.DataLayer\obj\Debug\netcoreapp3.1\TopLearn.DataLayer.csprojAssemblyReference.cache
+C:\Users\sepehr\Desktop\TopLearn\TopLearn_Asp.NetCore\TopLearn.DataLayer\obj\Debug\netcoreapp3.1\TopLearn.DataLayer.AssemblyInfoInputs.cache
+C:\Users\sepehr\Desktop\TopLearn\TopLearn_Asp.NetCore\TopLearn.DataLayer\obj\Debug\netcoreapp3.1\TopLearn.DataLayer.AssemblyInfo.cs
+C:\Users\sepehr\Desktop\TopLearn\TopLearn_Asp.NetCore\TopLearn.DataLayer\obj\Debug\netcoreapp3.1\TopLearn.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\sepehr\Desktop\TopLearn\TopLearn_Asp.NetCore\TopLearn.DataLayer\obj\Debug\netcoreapp3.1\TopLearn.DataLayer.dll
+C:\Users\sepehr\Desktop\TopLearn\TopLearn_Asp.NetCore\TopLearn.DataLayer\obj\Debug\netcoreapp3.1\TopLearn.DataLayer.pdb
+C:\Users\sepehr\Desktop\TopLearn\TopLearn_Asp.NetCore\TopLearn.DataLayer\obj\Debug\netcoreapp3.1\TopLearn.DataLayer.genruntimeconfig.cache

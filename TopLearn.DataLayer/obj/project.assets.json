@@ -5804,11 +5804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn\\TopLearn.DataLayer\\TopLearn.DataLayer.csproj",
+      "projectUniqueName": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn_Asp.NetCore\\TopLearn.DataLayer\\TopLearn.DataLayer.csproj",
       "projectName": "TopLearn.DataLayer",
-      "projectPath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn\\TopLearn.DataLayer\\TopLearn.DataLayer.csproj",
+      "projectPath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn_Asp.NetCore\\TopLearn.DataLayer\\TopLearn.DataLayer.csproj",
       "packagesPath": "C:\\Users\\sepehr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn\\TopLearn.DataLayer\\obj\\",
+      "outputPath": "C:\\Users\\sepehr\\Desktop\\TopLearn\\TopLearn_Asp.NetCore\\TopLearn.DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sepehr\\AppData\\Roaming\\NuGet\\NuGet.Config",

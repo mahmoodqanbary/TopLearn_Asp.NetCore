@@ -41,7 +41,8 @@ namespace TopLearn.Web
             services.AddTransient<IViewRenderService, RenderViewToString>();
             services.AddTransient<IUserPanelServices, UserPanelServices>();
             services.AddTransient<IUserAdminServies, UserAdminServiecs>();
-            
+            services.AddTransient<IPermissionService, PermissionService>();
+
             #endregion
             #region Authentication
             services.AddAuthentication(options =>

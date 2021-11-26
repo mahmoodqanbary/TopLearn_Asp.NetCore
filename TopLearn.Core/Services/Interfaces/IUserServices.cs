@@ -26,7 +26,7 @@ namespace TopLearn.Core.Services.Interfaces
         User GetUserByActiveCode(string activeCode);
         void UpdateUser(User user);
         #endregion
-       
 
+        int AddUserFromAdmin(CreateUserViewModel user);
     }
 }
